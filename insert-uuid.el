@@ -42,10 +42,10 @@
 ;;   (insert-uuid-create 5 'dns "example.com")       ; SHA-1 name-based
 ;;
 ;; Insert UUIDs interactively:
-;;   M-x insert-uuid-insert
+;;   M-x insert-uuid
 ;;
 ;; Bind to a key:
-;;   (global-set-key (kbd "C-c u") 'insert-uuid-insert)
+;;   (global-set-key (kbd "C-c u") 'insert-uuid)
 ;;
 ;; UUID Versions:
 ;; - Version 1: Time-based with MAC address (using random multicast address)

@@ -48,8 +48,8 @@ M-x package-install RET insert-uuid RET
 ```elisp
 (use-package insert-uuid
   :ensure t
-  :bind (("C-c u" . insert-uuid-insert)
-         ("C-c U" . insert-uuid-insert-random))
+  :bind (("C-c u" . insert-uuid)
+         ("C-c U" . insert-uuid-random))
   :custom
   (insert-uuid-default-version 4)
   (insert-uuid-uppercase nil))
@@ -65,7 +65,7 @@ M-x package-install RET insert-uuid RET
 (require 'insert-uuid)
 
 ;; Optional: Set up key bindings
-(global-set-key (kbd "C-c u") 'insert-uuid-insert)
+(global-set-key (kbd "C-c u") 'insert-uuid)
 ```
 
 ## Usage
@@ -74,10 +74,10 @@ M-x package-install RET insert-uuid RET
 
 ```elisp
 ;; Insert a UUID (prompts for version)
-M-x insert-uuid-insert
+M-x insert-uuid
 
 ;; Insert a random UUID (version 4) quickly
-M-x insert-uuid-insert-random
+M-x insert-uuid-random
 ```
 
 ### Programmatic Usage
@@ -116,11 +116,11 @@ Generate a UUID according to RFC 4122.
 - **namespace** - (Optional) For versions 3 and 5: UUID string or symbol (`'dns`, `'url`, `'oid`, `'x500`)
 - **name** - (Optional) For versions 3 and 5: Name string to hash
 
-#### `insert-uuid-insert (version)`
+#### `insert-uuid (version)`
 
 Interactively insert a UUID at point. Prompts for version and additional parameters as needed.
 
-#### `insert-uuid-insert-random ()`
+#### `insert-uuid-random ()`
 
 Insert a random UUID (version 4) at point without prompting.
 
