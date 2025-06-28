@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2025 Free Software Foundation, Inc.
 
-;; Author: TJ <tj@emacs.su>
+;; Author: William Theesfeld Jr <tj@emacs.su>
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tools, convenience, uuid, guid
