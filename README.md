@@ -1,4 +1,4 @@
-# UUID Generator for Emacs
+# RFC 4122 UUID Generator for Emacs
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![MELPA](https://melpa.org/packages/insert-uuid-badge.svg)](https://melpa.org/#/insert-uuid)
