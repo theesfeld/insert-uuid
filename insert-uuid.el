@@ -1,28 +1,24 @@
-;;; insert-uuid.el --- RFC 4122 compliant UUID generator -*- lexical-binding: t; -*-
+;;; insert-uuid.el --- Elisp RFC 4122 compliant UUID generator -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2025 Free Software Foundation, Inc.
+;; Copyright (C) 2025 William Theesfeld <william@theesfeld.net>
 
-;; Author: William Theesfeld Jr <tj@emacs.su>
+;; Author: William Theesfeld <william@theesfeld.net>
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tools, convenience, uuid, guid
 ;; URL: https://github.com/theesfeld/insert-uuid
-;; SPDX-License-Identifier: GPL-3.0-or-later
-
-;; This file is part of GNU Emacs.
-
-;; GNU Emacs is free software: you can redistribute it and/or modify
+;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
-;; GNU Emacs is distributed in the hope that it will be useful,
+;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with GNU Emacs.  If not, see <https://www.gnu.org/licenses/>.
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 
